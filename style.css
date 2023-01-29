@@ -74,7 +74,7 @@ nav #nav-logo li a i:hover {
 #container #child-container {
     background: linear-gradient(to bottom, #ffffff 30%, #c9c9c9 100%);
     width: 80%;
-    background-image: url(../images/bg.jpg);
+    background-image: url(./images/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
