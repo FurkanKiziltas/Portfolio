@@ -1,0 +1,218 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Andika', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;  
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#container {
+    display: flex;    
+}
+
+nav {
+    background: linear-gradient(to bottom, hsl(210, 50%, 40%) 0%, #99ffcc 100%);
+    height: 100vh;
+    width: 20%; 
+    border-right: 5px solid rgb(62, 71, 71);
+}                                   
+
+nav img {
+    height: 35%;
+    width: 75%;
+    border-radius: 50%;
+    border: 5px solid rgb(62, 71, 71);;
+    position: relative;
+    top: 5%;
+    left: 13%;
+}
+
+nav #nav-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin-top: 3rem;
+}
+
+nav #nav-text li {
+    margin-top: 30px;
+}
+
+nav #nav-text li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 35px;
+    color: rgb(62, 71, 71);
+    transition: 0.4s ease-in-out;
+}
+
+nav #nav-text li a:hover {
+    font-size: 25px;
+}
+
+nav #nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 45px;
+    list-style-type: none;
+}
+
+nav #nav-logo li a i{
+    font-size: 35px;
+    color: rgb(62, 71, 71);
+    transition: 0.4s ease-in-out;
+}
+
+nav #nav-logo li a i:hover {
+    font-size: 25px;
+}
+
+#container #child-container {
+    background: linear-gradient(to bottom, #ffffff 30%, #c9c9c9 100%);
+    width: 80%;
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 5px solid rgb(62, 71, 71);
+    border-right: 5px solid rgb(62, 71, 71);
+}
+
+#container #child-container h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+    color: rgb(62 57 51);
+}
+
+#second-container {
+    display: flex;
+}
+
+#second-container #child-container {
+    background: linear-gradient(to bottom, #cbcbcb 0%, #ffffff 100%);
+    width: 80%;
+    height: 100vh;
+    border-top: 5px solid rgb(62, 71, 71);
+    border-right: 5px solid rgb(62, 71, 71);
+}
+
+#second-container #child-container h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 15px;
+    color: rgb(62, 71, 71);
+    border-bottom: 10px solid rgb(62, 71, 71);
+    width: 60%;
+    margin-left: 20%;
+}
+
+#second-container #child-container p {
+    color: rgb(62, 71, 71);
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 90px;
+}
+
+#third-container {
+    display: flex;
+}
+
+#third-container #child-container {
+    background: linear-gradient(to bottom, #cbcbcb 0%, #ffffff 100%);
+    width: 80%;
+    height: 100vh;
+    border-top: 5px solid rgb(62, 71, 71);
+    border-right: 5px solid rgb(62, 71, 71);
+}
+
+#third-container #child-container h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 15px;
+    color: rgb(62, 71, 71);
+    border-bottom: 10px solid rgb(62, 71, 71);
+    width: 60%;
+    margin-left: 20%;
+}
+
+#third-container #child-container img {
+    width: 50px;
+    height: 50px;
+    margin-left: 48.5%;
+    margin-top: 2%;
+}
+
+#third-container #child-container #level {
+    border-bottom: 5px solid rgb(62, 71, 71);
+    width: 60%;
+    margin-left: 20%;
+}
+
+#third-container #child-container #level #html {
+    margin-left: 95%;
+}
+
+#third-container #child-container #level #css {
+    margin-left: 70%;
+} 
+
+#third-container #child-container #level #bootstrap {
+    margin-left: 70%;
+} 
+
+
+#third-container #child-container #level #javascript {
+    margin-left: 40%;
+}
+
+#third-container #child-container #level #jquery {
+    margin-left: 0%;
+}
+
+#third-container #child-container #level #react {
+    margin-left: 0%;
+}
+
+#fourth-container {
+    display: flex;
+}
+
+#fourth-container #child-container {
+    background: linear-gradient(to bottom, #cbcbcb 0%, #ffffff 100%);
+    width: 80%;
+    height: 100vh;
+    border-top: 5px solid rgb(62, 71, 71);
+    border-right: 5px solid rgb(62, 71, 71);  
+}
+
+#fourth-container #child-container h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 15px;
+    color: rgb(62, 71, 71);
+    border-bottom: 10px solid rgb(62, 71, 71);
+    width: 60%;
+    margin-left: 20%;
+}
+
+@media screen and (max-width: 1367px) {
+    nav img {
+        height: 230px;
+        width: 220px;
+        left: 8.5%;
+    }
+
+    nav #nav-text {
+        margin-top: 4rem;
+    }
+
+    nav #nav-text li {
+        margin-top: 40px;
+    }
+}
