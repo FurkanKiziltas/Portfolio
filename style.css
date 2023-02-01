@@ -201,6 +201,17 @@ nav #nav-logo li a i:hover {
     margin-left: 20%;
 }
 
+#fourth-container #child-container ol {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#fourth-container #child-container ol a {
+    text-decoration: none;
+    color: rgb(62, 71, 71); 
+}
+
 @media screen and (max-width: 1367px) {
     nav img {
         height: 230px;
