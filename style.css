@@ -207,6 +207,10 @@ nav #nav-logo li a i:hover {
     font-size: 30px;
 }
 
+#fourth-container #child-container ol li {
+    margin-top: 30px;
+}
+
 #fourth-container #child-container ol a {
     text-decoration: none;
     color: rgb(62, 71, 71); 
