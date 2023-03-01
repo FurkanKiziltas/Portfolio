@@ -155,7 +155,7 @@ nav #nav-logo li a i:hover {
 }
 
 #third-container #child-container #level #html {
-    margin-left: 95%;
+    margin-left: 90%;
 }
 
 #third-container #child-container #level #css {
@@ -163,20 +163,15 @@ nav #nav-logo li a i:hover {
 } 
 
 #third-container #child-container #level #bootstrap {
-    margin-left: 70%;
+    margin-left: 80%;
 } 
 
-
 #third-container #child-container #level #javascript {
-    margin-left: 40%;
-}
-
-#third-container #child-container #level #jquery {
-    margin-left: 30%;
+    margin-left: 60%;
 }
 
 #third-container #child-container #level #react {
-    margin-left: 0%;
+    margin-left: 45%;
 }
 
 #fourth-container {
